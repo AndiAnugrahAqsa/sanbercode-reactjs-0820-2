@@ -1,0 +1,47 @@
+
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    vertical-align: bottom;
+}
+
+span {
+    font-weight: bold;
+}
+
+input {
+  margin-right: 10px
+}
+
+button {
+    border-radius: 15px;
+    height: 25px;
+    background-color: white;
+}
+
+.container {
+    width: 525px;
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: serif;
+}
+
+.isi-form {
+    margin: 20px;
+}
+
+.label-form {
+    width: 150px;
+}
+
+.isi-checkbox {
+    height: 35px;
+}
