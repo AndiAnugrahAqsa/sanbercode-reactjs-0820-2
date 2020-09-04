@@ -1,47 +1,66 @@
-
+div {
+  font-family: serif;
+}
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 table {
-    width: 100%;
+  width: 100%;
 }
 
 tr {
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
 
 span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 input {
-  margin-right: 10px
+  margin-right: 10px;
 }
 
 button {
-    border-radius: 15px;
-    height: 25px;
-    background-color: white;
+  border-radius: 15px;
+  height: 25px;
+  background-color: white;
+}
+
+
+th {
+  background-color: gray;
+}
+.tr-table-harga {
+  background-color: rgb(246, 113, 65);
 }
 
 .container {
-    width: 525px;
-    margin: 100px auto;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-family: serif;
+  width: 525px;
+  margin: 100px auto;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
+
+
 .isi-form {
-    margin: 20px;
+  margin: 20px;
 }
 
 .label-form {
-    width: 150px;
+  width: 150px;
 }
 
 .isi-checkbox {
-    height: 35px;
+  height: 35px;
+}
+
+.container-table-harga {
+  border: none;
+}
+
+.table-harga {
+  border: 1px solid black;
 }
