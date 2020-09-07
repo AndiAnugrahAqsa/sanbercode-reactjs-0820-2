@@ -42,19 +42,7 @@ class Timer extends Component {
         this.template = 'h:m:s'
         var date = new Date();
 
-        var hours = date.getHours();
-        if (hours < 10) hours = '0' + hours;
-
-        var mins = date.getMinutes();
-        if (mins < 10) mins = '0' + mins;
-
-        var secs = date.getSeconds();
-        if (secs < 10) secs = '0' + secs;
-
-        this.output = this.template
-            .replace('h', hours)
-            .replace('m', mins)
-            .replace('s', secs);
+        this.output = date.toLocaleTimeString('en-US')
 
     }
 
@@ -66,13 +54,13 @@ class Timer extends Component {
         return (
             <>
                 {this.state.display && (
-                    <>
+                    <div style={{ fontFamily: "sans-serif" }}>
                         <h1 style={{ float: "left" }}>sekarang jam: {this.output}</h1>
                         <h1 style={{ float: "right" }}>
                             hitung mundur: {this.state.time}
                         </h1>
 
-                    </>
+                    </div>
                 )
                 }
             </>
