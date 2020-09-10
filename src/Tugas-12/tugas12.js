@@ -110,9 +110,7 @@ class Tugas12 extends React.Component {
             }
 
         }
-        // this.setState({
 
-        // })
     }
 
 

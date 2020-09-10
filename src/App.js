@@ -5,7 +5,8 @@ import './App.css';
 // import ComponentTugas10 from './Tugas-10/componentTugas10.js'
 // import Timer from './Tugas-11/tugas11'
 // import Tugas12 from './Tugas-12/tugas12';
-import DaftarBuah from './Tugas-13/tugas13'
+// import DaftarBuah from './Tugas-13/tugas13'
+import DataBuah from './Tugas-14/dataBuah'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <ComponentTugas10 />
       <Timer /> */}
       {/* <Tugas12 /> */}
-      <DaftarBuah />
+      <DataBuah />
     </div>
   );
 }

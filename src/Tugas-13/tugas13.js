@@ -88,7 +88,7 @@ const DaftarBuah = () => {
 
     return (
         <>
-            <div class="container container-table-harga" >
+            <div class="container container-table-harga">
                 <h1>Tabel Harga Buah</h1>
                 <table class="table-harga">
                     <tr>
