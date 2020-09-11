@@ -54,7 +54,7 @@ const DaftarBuah = () => {
                 })
         }
         else {
-            axios.delete(`http://backendexample.sanbercloud.com/api/contestants/${input.id}`)
+            axios.put(`http://backendexample.sanbercloud.com/api/contestants/${input.id}`)
                 .then(res => {
                     var newDataBuah = dataBuah.map(x => {
                         if (x.id === input.id) {
